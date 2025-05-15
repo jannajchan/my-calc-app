@@ -1,20 +1,20 @@
-# Python cache
+# Ignore Python cache
 __pycache__/
 *.pyc
 
-# Virtual environments
+# Ignore Virtual environments
 env/
 venv/
 
-# VSCode settings
+# Ignore Environment variables
+.env
+
+# Ignore VSCode settings
 .vscode/
 
-# OS junk
+# Ignore OS junk
 .DS_Store
 Thumbs.db
 
-# Excel or temp data
+# Ignore Excel or temp data
 *.xlsx
-
-# Environment variables
-.env
