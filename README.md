@@ -12,5 +12,10 @@ About Calculator App
     git init
     git remote add origin https://github.com/yourusername/my-calc-app.git
     git add .
-    git commit -m "Initial commit for my mortgage calculator Flask app"
+    git commit -m "Initial commit for my calculator Flask app"
     git push -u origin main
+
+I've now published my-calc-app repo to GitHub, so I want to deploy this app to<br/>
+    🔹 Render.com<br/>
+        https://my-calc-app.onrender.com/mortgage<br/>
+    🔹 Railway.app : I cannot deploy the code, due to the "Limited Trail".<br/>
