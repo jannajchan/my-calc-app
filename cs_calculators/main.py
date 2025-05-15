@@ -23,6 +23,7 @@
         │   └── main.py                     ← We are here!
         ├── requirements.txt
         ├── .gitignore                      ← (optional, but recommended)
+        ├── LICENSE
         └── README.md                       ← (optional, to explain the project)
 
     When trying to run main.py from inside the cs_calculators/ folder directly like this:
@@ -76,6 +77,7 @@ Solution 3: Restructure for Scripts (alternative)
         ├── main.py                         ← Move file main.py here!
         ├── requirements.txt
         ├── .gitignore
+        ├── LICENSE
         └── README.md
     Then in main.py do (use Absolute import):
         -python------------------------------------------------------------------------------
