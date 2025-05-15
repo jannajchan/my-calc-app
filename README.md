@@ -1,11 +1,11 @@
 # calc-app
 About Calculator App
 
-🧠 Case Study: Building Calculator Software in Python
-    🔹 BasicCalculator()     - Basic arithmetic operations
-    🔹 FinancialCalculator() - Inherits from BasicCalculator + Method for financial calculation
-    🔹 MortgageCalculator()  - Inherits from FinancialCalculator
-    It's a project that I learned how to build app in Python, and also learned about types of inheritance.
+🧠 Case Study: Building Calculator Software in Python<br/>
+    🔹 BasicCalculator()     - Basic arithmetic operations<br/>
+    🔹 FinancialCalculator() - Inherits from BasicCalculator + Method for financial calculation<br/>
+    🔹 MortgageCalculator()  - Inherits from FinancialCalculator<br/>
+    It's a project that I learned how to build app in Python, and also learned about types of inheritance.<br/>
 
     In terminal, to deploy to my-calc-app repo:
     cd path/to/my-calc-app
