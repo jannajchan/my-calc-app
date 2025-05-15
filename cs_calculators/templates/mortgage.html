@@ -34,9 +34,6 @@
                                 <button type="submit" class="btn btn-primary w-50 me-2">คำนวณสินเชื่อ</button>
                                 <a href="{{ url_for('index') }}" class="btn btn-secondary w-50">ล้างข้อมูล</a>
                             </div>
-                            <div class="text-center mt-4">
-                                <a href="{{ url_for('home') }}" class="btn btn-custom-blue btn-lg">กลับสู่หน้าแรก</a>
-                            </div>
                         </form>
                         {% if result %}
                         <div class="alert alert-success mt-4">
@@ -46,6 +43,9 @@
                             <p><strong>ยอดดอกเบี้ยทั้งหมด:</strong> ฿{{ "{:,.2f}".format(result.total_interest) }}<br/><strong>(Total Interest)</strong></p>
                         </div>
                         {% endif %}
+                        <div class="text-center mt-4">
+                            <a href="{{ url_for('home') }}" class="btn btn-custom-blue btn-lg">กลับสู่หน้าแรก</a>
+                        </div>
                     </div>
                 </div>
             </div>
