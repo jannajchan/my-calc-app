@@ -5,7 +5,7 @@ About Calculator App
     🔹 BasicCalculator()     - Basic arithmetic operations<br/>
     🔹 FinancialCalculator() - Inherits from BasicCalculator + Method for financial calculation<br/>
     🔹 MortgageCalculator()  - Inherits from FinancialCalculator<br/>
-It's a project that I learned how to build app in Python, and also learned about types of inheritance.<br/>
+It's a project that I learned how to build app in Python.<br/>
 
     In terminal, to deploy to my-calc-app repo:
     cd path/to/my-calc-app
