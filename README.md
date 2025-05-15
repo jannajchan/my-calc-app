@@ -1,13 +1,18 @@
 # calc-app
 About Calculator App
 
-🧠 Case Study: Building Calculator Software in Python<br/>
-    🔹 BasicCalculator()     - Basic arithmetic operations<br/>
-    🔹 FinancialCalculator() - Inherits from BasicCalculator + Method for financial calculation<br/>
-    🔹 MortgageCalculator()  - Inherits from FinancialCalculator<br/>
-It's a project that I learned how to build app in Python.<br/>
+🧠 Case Study: Building Calculator Application in Python<br/>
+<br/>
+This project helped me learn how to build and structure a Python application. The app consists of multiple calculator classes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 BasicCalculator()     - Handles basic arithmetic operations<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 FinancialCalculator() - Inherits from BasicCalculator, and adds financial calculation features<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 MortgageCalculator()  - Inherits from FinancialCalculator, performs mortgage-related calculations<br/>
+<br/>
+🚀 Deployment<br/>
+I created this project as a learning exercise and deployed it online.<br/>
 
-    In terminal, to deploy to my-calc-app repo:
+To publish the app on GitHub:
+
     cd path/to/my-calc-app
     git init
     git remote add origin https://github.com/yourusername/my-calc-app.git
@@ -15,7 +20,20 @@ It's a project that I learned how to build app in Python.<br/>
     git commit -m "Initial commit for my calculator Flask app"
     git push -u origin main
 
+Deployed it to online platforms:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 Render.com – Successfully deployed ⇒ https://my-calc-app.onrender.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 Railway.app – Deployment failed due to the platform's trial limitations.<br/>
 
-I've now published my-calc-app repo to GitHub, so I want to deploy this app to<br/>
-🔹 Render.com : I successfully deployed ⇒ https://my-calc-app.onrender.com<br/>
-🔹 Railway.app : I cannot deploy the code, due to the "Limited Trail".<br/>
+<hr>
+
+📚 What I’ve Learned<br/>
+I start learning Python on my own with the goal of returning to an IT career. I used online resources, e-learning courses, tutorials, and study plans, while sharpening my problem solving skills through LeetCode challenges.<br/>
+<br/>
+Key lessons from this project:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 Understanding inheritance in Python, and using 'super()' to avoid code duplication.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 Handling financial accuracy and avoid rounding issues from redundant calculations.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 Export results to Excel using 'pandas'.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 Creating a CLI (Command-Line Interface) tool using 'argparse'.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 Deploying a Flask Web App locally and on hosting platforms (e.g., Render.com).<br/>
+<br/>
+This project represents my journey in rebuilding my IT skills, starting from the fundamentals and moving into applications.
